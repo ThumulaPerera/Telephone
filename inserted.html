@@ -1,0 +1,21 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<ul>
+		<?php include "header.php"; ?>
+	</ul>
+	<div class="outbox">
+        <p>Name:</p>
+        <p class="data"><?php echo $_SESSION["ins_name"]; ?></p><br>
+        <p>Contact Number:</p>
+        <p class="data"><?php echo $_SESSION["ins_number"]; ?></p><br>
+        <p class="inserted"><i>*Details successfully added</i></p>
+        <a href="home1.html">Home</a>
+    </div>
+</body>
+</html>
