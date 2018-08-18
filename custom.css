@@ -1,0 +1,48 @@
+nav img{
+    width: 30px;
+    height: 30px;
+}
+
+nav .navbar-toggler{
+    border-width: 0px;
+    outline: none;
+}
+
+.contact-form{
+    width: 450px;
+    height: 780px;
+    margin-top: 80px;
+    margin-left: calc(50% - 225px);
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    padding-top: 40px;
+}
+
+.contact-form label{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.checkboxclass{
+    
+    margin-top: 40px;
+}
+
+.checkboxclass label{
+    display:inline-grid;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.contact-form .form-group{
+    margin-top: 35px;
+}
+
+.submitbutton{
+    
+    margin-top: 40px;
+    width: 80px;
+    margin-left: calc(50% - 40px);
+}
