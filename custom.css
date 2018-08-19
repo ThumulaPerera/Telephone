@@ -9,12 +9,14 @@ nav .navbar-toggler{
 }
 
 .contact-form{
-    width: 450px;
-    height: 780px;
-    margin-top: 80px;
-    margin-left: calc(50% - 225px);
-    margin-bottom: 60px;
-    padding: 20px;
+    width: 28.125rem;
+    height: 48.75rem;
+    position: absolute;
+    top: 5rem;
+    left: calc(50% - 14.0625rem);
+/*    bottom: 60px;*/
+    margin-bottom: 3.75rem;
+    padding: 1.25rem;
     background-color: antiquewhite;
     border-radius: 30px;
     padding-top: 40px;
@@ -46,3 +48,41 @@ nav .navbar-toggler{
     width: 80px;
     margin-left: calc(50% - 40px);
 }
+
+.tablecontainer{
+    position: absolute;
+    top: 100px;
+    width: 600px;
+    left: calc(50% - 300px)
+}
+
+.table-fixed tbody {
+height: 200px;
+overflow-y: auto;
+width: 100%;
+}
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+display: block;
+}
+.table-fixed tr:after {
+content: "";
+display: block;
+visibility: hidden;
+clear: both;
+}
+
+.table-fixed tbody td,
+.table-fixed thead > tr > th {
+float: left;
+    
+}
+
+.table-fixed td,th{
+    width: 140px;
+}
+
+
