@@ -1,0 +1,162 @@
+nav img{
+    width: 30px;
+    height: 30px;
+}
+
+nav .navbar-toggler{
+    border-width: 0px;
+    outline: none;
+}
+
+.contact-form{
+    width: 28.125rem;
+    height: 48.75rem;
+    position: absolute;
+    top: 5rem;
+    left: calc(50% - 14.0625rem);
+/*    bottom: 60px;*/
+    margin-bottom: 3.75rem;
+    padding: 1.25rem;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    padding-top: 40px;
+}
+
+.contact-form label{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.checkboxclass{
+    
+    margin-top: 40px;
+}
+
+.checkboxclass label{
+    display:inline-grid;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.contact-form .form-group{
+    margin-top: 35px;
+}
+
+.submitbutton{
+    
+    margin-top: 40px;
+    width: 80px;
+    margin-left: calc(50% - 40px);
+}
+
+
+
+
+.tablecontainer{
+    position: absolute;
+    top: 100px;
+    width: 600px;
+    left: calc(50% - 300px)
+}
+
+.table-fixed tbody {
+height: 200px;
+overflow-y: auto;
+width: 100%;
+}
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+display: block;
+}
+.table-fixed tr:after {
+content: "";
+display: block;
+visibility: hidden;
+clear: both;
+}
+
+.table-fixed tbody td,
+.table-fixed thead > tr > th {
+float: left;
+    
+}
+
+.table-fixed td,th{
+    width: 140px;
+}
+
+
+
+
+
+
+
+
+
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+}
+
+
+.tablesearchcontainer{
+    position: absolute;
+    top: 70px;
+    
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%,0);
+    
+}
+
+.tablesearchcontainer thead,tfoot{
+
+  
+
+}
+
+.tablesearchcontainer tbody{
+    width: auto;
+    height: 400px;
+    overflow-y: auto;
+
+}
+        
+.tablesearchcontainer td, th{
+
+
+} 
+
+
+
